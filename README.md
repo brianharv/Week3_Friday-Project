@@ -11,7 +11,7 @@
 _This application will utilize javascript and jquery functions to loop through isuer input and return to them a "translation" into Robo-speak._
 
 ## Specs
-Spec 1: The program retusn a range of numbers from 0 to the users inputted number:
+Spec 1: The program returns a range of numbers from 0 to the users inputted number:
   * Input "4"
   * Output: "0,1,2,3,4"
 
