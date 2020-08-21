@@ -6,15 +6,15 @@ function roboTalk(number) {
     //alert("working");
   let digit = roboArray[i];
   if (digit === 1) {
-      roboArray.splice(i, i-1, "Beep!");
+      roboArray.splice(i, 1, "Beep!");
     } else if (digit === 2) {
-      roboArray.splice(i, i-1, "Boop!");
+      roboArray.splice(i, 1, "Boop!");
     } else if (digit === 3) {
-      roboArray.splice(i, i-1, "Won't you be my neighbor?");
+      roboArray.splice(i, 1, "Won't you be my neighbor?");
     }
    // alert("stillworking");
   } 
-  return roboArray.join('');
+  return roboArray.join();
 } 
 
 
