@@ -4,12 +4,12 @@ function roboTalk(number) {
   for (let i = 0; i <= number; i++) {
     roboArray.push(i);
     //alert("working");
-  let digit = roboArray[i];
-  if (digit === 1) {
+  //let digit = roboArray[i];
+  if (i === 1) {
       roboArray.splice(i, 1, "Beep!");
-    } else if (digit === 2) {
+    } else if (i === 2) {
       roboArray.splice(i, 1, "Boop!");
-    } else if (digit === 3) {
+    } else if (i === 3) {
       roboArray.splice(i, 1, "Won't you be my neighbor?");
     }
    // alert("stillworking");

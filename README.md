@@ -35,11 +35,6 @@ Spec 5: These exceptions are written with ascending importance so that the first
 * Input: "21"
 * Output: "Boop!"
 
-
-
-
-## Tests
-
 ## Setup
 
 * _Retrieve from GitHub._
