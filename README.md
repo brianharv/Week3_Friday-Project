@@ -26,7 +26,7 @@ No Known Bugs
 
 ## Support
 
-For any questions or feedback, please contact [me](mailto:brian.harv3y@gmail.com).
+For any questions or feedback, please [contact me](mailto:brian.harv3y@gmail.com).
 
 ## Technologies Used
 
