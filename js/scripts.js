@@ -27,13 +27,17 @@ $(document).ready(function() {
 });
 
 /* 
- if (i === 1) {
-      roboArray.splice(i, 1, "Beep!");
-    } else if (i === 2) {
-      roboArray.splice(i, 1, "Boop!");
-    } else if (i === 3) {
-      roboArray.splice(i, 1, "Won't you be my neighbor?");
-    }
-  } 
-  return roboArray.join();
-  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
