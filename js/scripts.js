@@ -3,18 +3,16 @@ function roboTalk(number) {
   let roboArray = [];
   for (let i = 0; i <= number; i++) {
     roboArray.push(i);
-    //alert("working");
-  //let digit = roboArray[i];
-  if (i === 1) {
+    if (roboArray.includes(1)) {
       roboArray.splice(i, 1, "Beep!");
-    } else if (i === 2) {
+    } else if (roboArray.includes(2)) {
       roboArray.splice(i, 1, "Boop!");
-    } else if (i === 3) {
+    } else if (roboArray.includes(3)) {
       roboArray.splice(i, 1, "Won't you be my neighbor?");
     }
-   // alert("stillworking");
   } 
   return roboArray.join();
+
 } 
 
 
@@ -27,3 +25,15 @@ $(document).ready(function() {
     $(".form-output").text(roboTalk(userInput));
   });
 });
+
+/* 
+ if (i === 1) {
+      roboArray.splice(i, 1, "Beep!");
+    } else if (i === 2) {
+      roboArray.splice(i, 1, "Boop!");
+    } else if (i === 3) {
+      roboArray.splice(i, 1, "Won't you be my neighbor?");
+    }
+  } 
+  return roboArray.join();
+  */
