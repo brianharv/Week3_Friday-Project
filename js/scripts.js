@@ -4,17 +4,17 @@ function roboTalk(number) {
   for (let index = 0; index <= number; index++) {
     //roboArray.push(index);
     alert("working");
-    let digit = roboArray[index];
-    if (digit === 1) {
+   // let digit = roboArray[number];
+  /*  if (digit === 1) {
       roboArray.replace("Beep!");
     } else if (digit === 2) {
       roboArray.replace("Boop!");
     } else if (digit === 3) {
       roboArray.replace("Won't you be my neighbor?");
     }
-    alert("stillworking");
+    alert("stillworking");*/
   } 
-  return roboArray.push();
+  roboArray.push[number];
 } 
 
 
