@@ -1,20 +1,20 @@
 //Business Logic
 function roboTalk(number) {
   let roboArray = [];
-  for (let index = 0; index <= number; index++) {
-    //roboArray.push(index);
-    alert("working");
-   // let digit = roboArray[number];
-  /*  if (digit === 1) {
-      roboArray.replace("Beep!");
+  for (let i = 0; i <= number; i++) {
+    roboArray.push(i);
+    //alert("working");
+  let digit = roboArray[i];
+  if (digit === 1) {
+      roboArray.splice(i, i-1, "Beep!");
     } else if (digit === 2) {
-      roboArray.replace("Boop!");
+      roboArray.splice(i, i-1, "Boop!");
     } else if (digit === 3) {
-      roboArray.replace("Won't you be my neighbor?");
+      roboArray.splice(i, i-1, "Won't you be my neighbor?");
     }
-    alert("stillworking");*/
+   // alert("stillworking");
   } 
-  roboArray.push[number];
+  return roboArray.join('');
 } 
 
 
