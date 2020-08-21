@@ -1,12 +1,14 @@
 //Business Logic
 
 function roboTalk(number) {
-  const numberValue = number.val();
-  let roboArray = [];
-  for (let index = 0; index <= numberValue -1; index++) {
-    roboArray.push(index);
-    
-    
+  let roboArray = []; //Need number to equal length of array
+  for (let index = 0; index <= number; index++) {
+    //roboArray.push(index);
+    let digit = roboArray[index];
+    if (digit === 1) {
+      roboArray.replace("Beep!");
+    }
+    )
   }
 }
 
