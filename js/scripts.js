@@ -1,10 +1,11 @@
 //Business Logic
 
 function roboTalk(number) {
+  const numberValue = number.val();
   let roboArray = [];
-  for (let index = 0; index < number; index +=1) {
-    console.log("working");
-    roboArray.push();
+  for (let index = 0; index <= numberValue -1; index++) {
+    roboArray.push(index);
+    
     
   }
 }
@@ -14,7 +15,9 @@ function roboTalk(number) {
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
-    const number = parseInt($("input#userInput").val());
-    $(".form-output").text(number);
+    const userInput = parseInt($("input#userInput").val());
+
+    $(".form-output").text(userInput);
+   // $(".form-output").text(roboTalk(userInput));
   });
 });
