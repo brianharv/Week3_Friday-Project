@@ -12,7 +12,6 @@ function roboTalk(number) {
     }
   } 
   return roboArray.join();
-
 } 
 
 
@@ -26,18 +25,3 @@ $(document).ready(function() {
   });
 });
 
-/* 
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
