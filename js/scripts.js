@@ -2,7 +2,8 @@
 function roboTalk(number) {
   let roboArray = [];
   for (let i = 0; i <= number; i++) {
-    roboArray.push(i);
+    roboArray.push(i)
+      alert(typeof roboArray);
     if (roboArray.includes(1)) {
       roboArray.splice(i, 1, "Beep!");
     } else if (roboArray.includes(2)) {
