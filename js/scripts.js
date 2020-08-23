@@ -1,8 +1,8 @@
 //Business Logic
 function roboTalk(number) {
-  const one = [1, 10, 14, 15, 16, 17, 18, 19,];
-  const two = [2, 12, 22, 24, 25, 26, 27, 28, 29,]
-  const three = [3, 13, 23, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
+  const one = [1, 10, 14, 15, 16, 17, 18, 19, 21, 31, 41, 51, 61, 71, 81, 91, 100];
+  const two = [2, 12, 20, 22, 24, 25, 26, 27, 28, 29, 42, 52, 62, 72, 82, 92]
+  const three = [3, 13, 23, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 43, 53, 63, 73, 83, 93]
   let array = [];
   for (let index = 0; index <=number; index++) {
     array.push(index).toString();
@@ -21,6 +21,7 @@ function roboTalk(number) {
     }
   });
   return roboArray;
+  
 }
 
   
@@ -30,8 +31,9 @@ $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
     let userInput = parseInt($("input#userInput").val());
-
+    $("#bottom").show();
     $(".form-output").text(roboTalk(userInput));
+    
   });
 });
 

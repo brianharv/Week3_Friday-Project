@@ -3,6 +3,7 @@
 }
 
 .navbar {
+  margin: 50px;
   font-size: 1.5rem;
   font-weight: lighter;
 }
@@ -12,4 +13,32 @@ img {
   border-radius: 4px; 
   padding: 5px; 
   width: 150px; 
+}
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  font-family: 'arial';
+  font-size: 2.5em;
+}
+
+.row2 {
+  text-align: center;
+  margin-right: 3cm;
+  margin-left: 2cm;
+}
+
+hr {
+  border: solid black;
+  width: 75%;
+}
+
+.form-group {
+  place-content: center;
+  margin: 50px;
+}
+
+#bottom {
+  display: none;
+  text-align: center;
 }
