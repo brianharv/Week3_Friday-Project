@@ -1,19 +1,14 @@
 //Business Logic
 function roboTalk(number) {
   let roboArray = [];
-  for (let i = 0; i <= number; i++) {
-    roboArray.push(i)
-      alert(typeof roboArray);
-    if (roboArray.includes(1)) {
+  for (let index = 0; index <= number; index++) {
+    roboArray.push(index).toString();
+    if (roboArray.match(/1/g)) {
       roboArray.splice(i, 1, "Beep!");
-    } else if (roboArray.includes(2)) {
-      roboArray.splice(i, 1, "Boop!");
-    } else if (roboArray.includes(3)) {
-      roboArray.splice(i, 1, "Won't you be my neighbor?");
     }
   } 
-  return roboArray.join();
-} 
+  return roboArray;
+}
 
 
 //User Interface Logic
@@ -26,3 +21,16 @@ $(document).ready(function() {
   });
 });
 
+/*
+  roboArray.push(i);
+      //alert(typeof roboArray);
+    if (roboArray.includes(1)) {
+      roboArray.splice(i, 1, "Beep!");
+    } else if (roboArray.includes(2)) {
+      roboArray.splice(i, 1, "Boop!");
+    } else if (roboArray.includes(3)) {
+      roboArray.splice(i, 1, "Won't you be my neighbor?");
+    }
+  } 
+  return roboArray.join();
+  */
