@@ -1,0 +1,15 @@
+.container-fluid {
+  margin: 50px;
+}
+
+.navbar {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+img {
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+  padding: 5px; 
+  width: 150px; 
+}
