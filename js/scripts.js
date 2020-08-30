@@ -9,11 +9,11 @@ function roboTalk(element) {
   let roboArray = [];
   array.forEach(function(element) {
     //console.log(typeof element);
-    if ([element].includes("3")) {
+    if (array[element].includes("3")) {
       roboArray.push("Won't You Be My Neighbor?");
-    } else if ([element].includes("2")) {
+    } else if (array[element].includes("2")) {
       roboArray.push("boop!");
-    } else if ([element].includes("1")) {
+    } else if (array[element].includes("1")) {
       roboArray.push("beep!");
     } else {
       roboArray.push(element);

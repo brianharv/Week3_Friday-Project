@@ -37,7 +37,8 @@ Spec 5: These exceptions are written with ascending importance so that the first
 
 ## Setup
 
-* _Retrieve from GitHub._
+* _Clone repository from GitHub using Terminal._
+* _Open project folder in VSCode._
 * _Open index.html in browser._
 
 ## Known Bugs
