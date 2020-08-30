@@ -1,28 +1,31 @@
 //Business Logic
-function roboTalk(number) {
-  const one = [1, 10, 14, 15, 16, 17, 18, 19, 21, 31, 41, 51, 61, 71, 81, 91, 100];
-  const two = [2, 12, 20, 22, 24, 25, 26, 27, 28, 29, 42, 52, 62, 72, 82, 92]
-  const three = [3, 13, 23, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 43, 53, 63, 73, 83, 93]
+function roboTalk(element) {
   let array = [];
-  for (let index = 0; index <=number; index++) {
-    array.push(index).toString();
+  for (let i = 0; i <= element; i++) {
+    array.push(String(i));
   }
   array;
+  console.log(array);
   let roboArray = [];
   array.forEach(function(element) {
-    if (one.includes(element)) {
-      roboArray.push("beep!");
-    } else if (two.includes(element)) {
+    //console.log(typeof element);
+    if ([element].includes("3")) {
+      roboArray.push("Won't You Be My Neighbor?");
+    } else if ([element].includes("2")) {
       roboArray.push("boop!");
-    } else if (three.includes(element)) {
-      roboArray.push("Won't you be my neighbor?");
+    } else if ([element].includes("1")) {
+      roboArray.push("beep!");
     } else {
       roboArray.push(element);
     }
   });
+  console.log(roboArray);
   return roboArray;
   
+  
 }
+
+//
 
   
 
@@ -30,7 +33,7 @@ function roboTalk(number) {
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
-    let userInput = parseInt($("input#userInput").val());
+    let userInput = $("input#userInput").val();
     $("#bottom").show();
     $(".form-output").text(roboTalk(userInput));
     
@@ -44,11 +47,11 @@ $(document).ready(function() {
     array.push(index).toString();
     //alert(array);
 
-    if (array.includes(ones)) {
-      array.splice(index, 1, "Beep!");
+    if ((array[i]).includes("3")) {
+      ***array[i].push***
     } else if (array.includes(2)) {
       array.splice(index, 1, "Boop!");
-    } else if (array.includes(3)) {
+    } else if (array.includes(1)) {
       array.splice(index, 1, "Won't you be my neighbor?");
     }
   }
